@@ -1,0 +1,29 @@
+@media screen and (max-width: 1000px) {
+    nav {
+        flex-direction: column;
+    }
+    header {
+        height: 18vh;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+        margin-top: 2.3vh;
+    }
+    nav ul {
+        justify-content: center;
+        height: 6vh;
+    }
+    .search {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .slider {
+        height: 19vh;
+    }
+    .cards {
+        overflow: scroll;
+    }
+}
